@@ -13,12 +13,12 @@ An Portfolio site template, implemented with [Next.js](https://nextjs.org/) and 
 
 <p>
 
-![GitHub top language](https://img.shields.io/github/languages/top/AliBagheri2079/dennis-snellenberg-portfolio)&nbsp;
-![GitHub last commit](https://img.shields.io/github/last-commit/AliBagheri2079/dennis-snellenberg-portfolio)&nbsp;
-![GitHub commit activity](https://img.shields.io/github/commit-activity/m/AliBagheri2079/dennis-snellenberg-portfolio)&nbsp;
-![GitHub release (latest by date)](https://img.shields.io/github/v/release/AliBagheri2079/dennis-snellenberg-portfolio?display_name=tag)&nbsp;
-![GitHub Repo stars](https://img.shields.io/github/stars/AliBagheri2079/dennis-snellenberg-portfolio?color=yellow)&nbsp;
-![GitHub forks](https://img.shields.io/github/forks/AliBagheri2079/dennis-snellenberg-portfolio)
+![GitHub top language](https://img.shields.io/github/languages/top/MuhammadUsmangani/Muhammad_Usman)&nbsp;
+![GitHub last commit](https://img.shields.io/github/last-commit/MuhammadUsmangani/Muhammad_Usman)&nbsp;
+![GitHub commit activity](https://img.shields.io/github/commit-activity/m/MuhammadUsmangani/Muhammad_Usman)&nbsp;
+![GitHub release (latest by date)](https://img.shields.io/github/v/release/MuhammadUsmangani/Muhammad_Usman?display_name=tag)&nbsp;
+![GitHub Repo stars](https://img.shields.io/github/stars/MuhammadUsmangani/Muhammad_Usman?color=yellow)&nbsp;
+![GitHub forks](https://img.shields.io/github/forks/MuhammadUsmangani/Muhammad_Usman)
 
 </p>
 
@@ -38,6 +38,8 @@ An Portfolio site template, implemented with [Next.js](https://nextjs.org/) and 
   loading="lazy"
   alt="home page screenshot"
 />
+
+</div>
 
 </div>
 
@@ -94,7 +96,7 @@ Don't forget to give the project a star! Thanks again!
 ## 🔗 Links
 
 <p>
-  <a href="https://github.com/AliBagheri2079">
+  <a href="https://github.com/MuhammadUsmangani">
     <img src="https://img.shields.io/badge/Github-000?style=flat&logo=github&logoColor=white"/>
   </a>
   <a href="https://www.linkedin.com/in/alibagheri2079">
@@ -106,3 +108,4 @@ Don't forget to give the project a star! Thanks again!
 </p>
 
 <p align="right">(<a href="#top">BACK TO TOP🔝</a>)</p>
+>>>>>>> c1f06f6dc37106566ac94f57e63f142821a29547
