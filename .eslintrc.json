@@ -45,7 +45,8 @@
     "import/namespace": 2,
     "import/default": 2,
     "import/export": 2,
-    "tailwindcss/no-custom-classname": "off"
+    "tailwindcss/no-custom-classname": "off",
+    "@next/next/no-img-element": "off"
   },
   "settings": {
     "import/extensions": [".js", ".jsx"],
