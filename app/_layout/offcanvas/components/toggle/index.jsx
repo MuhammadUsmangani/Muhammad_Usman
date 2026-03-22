@@ -37,7 +37,7 @@ export function OffcanvasToggle({ isOpen, handleOpen }) {
       <MagneticButton
         size='md'
         variant='ghost'
-        className='border border-solid border-muted-foreground'
+        className='border border-solid border-muted-foreground max-md:scale-[0.8] origin-center'
         onClick={() => handleOpen(!isOpen)}
       >
         <span

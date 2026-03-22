@@ -1,9 +1,8 @@
 'use client';
 
 import { motion } from 'framer-motion';
-import { ArrowDownLeft } from 'lucide-react';
 import Link from 'next/link';
-import { CldImage } from 'next-cloudinary';
+import { ArrowUpRight } from 'lucide-react';
 
 import { MagneticButton } from '@/components';
 
@@ -18,27 +17,26 @@ export function UserDetails({ transformX }) {
     <Container>
       <Row>
         <div className='flex items-center gap-8'>
-          <ImageWrapper>
-            <CldImage
-              src='Dennis-Portfolio/images/mqtwxh5znybowgaljrbp'
-              className='rounded-full object-cover'
-              fill={true}
-              alt='Dennis Snellenberg Profile Picture'
+          <ImageWrapper className='overflow-hidden rounded-full'>
+            <img
+              src='/images/user.jpg'
+              className='absolute inset-0 size-full object-cover'
+              alt='Muhammad Usman'
             />
           </ImageWrapper>
           <MainTitle>Let’s work</MainTitle>
         </div>
         <div className='flex items-center justify-between'>
           <MainTitle>together</MainTitle>
-          <div>
-            <ArrowDownLeft size={28} strokeWidth={1.25} />
+          <div className='mt-6 opacity-40'>
+            <ArrowUpRight size={60} strokeWidth={1} />
           </div>
         </div>
       </Row>
 
       <Row>
         <div className='relative w-full'>
-          <div className='h-[1px] bg-muted-foreground' />
+          <div className='h-px bg-muted-foreground' />
           <div className='absolute right-0 top-0 z-20 -translate-x-1/2 -translate-y-1/2'>
             <motion.div style={{ x: transformX }}>
               <Link href='/contact' passHref>
@@ -54,13 +52,13 @@ export function UserDetails({ transformX }) {
       <Row>
         <div className='flex w-full flex-col gap-4 lg:flex-row'>
           <div>
-            <a href='mailto:info@dennissnellenberg.com'>
+            <a href='mailto:info@muhammadusman.com'>
               <MagneticButton
                 variant='outline'
                 size='md'
-                className='w-full border-muted-foreground'
+                className='w-full border-muted-foreground text-[12px] sm:text-base whitespace-nowrap px-4'
               >
-                info@dennissnellenberg.com
+                info@muhammadusman.com
               </MagneticButton>
             </a>
           </div>

@@ -10,6 +10,7 @@
       "@/lib": ["./app/_lib/index.js"],
       "@/providers": ["./app/_providers/index.jsx"],
       "@/utils": ["./app/_utils/index.js"],
+      "@/utils/*": ["./app/_utils/*", "./utils/*"],
       "@/*": ["./*"]
     }
   }

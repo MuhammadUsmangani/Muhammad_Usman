@@ -50,11 +50,10 @@ An Portfolio site template, implemented with [Next.js](https://nextjs.org/) and 
 
 ## ✨ Demo
 
-You can visit and explore portfolio in the [Dennis Snellenberg Portfolio](https://dennis-snellenberg-portfolio.vercel.app/) template.
+You can visit and explore portfolio in the [Muhammad Usman Portfolio](https://muhammad-usman-portfolio.vercel.app/) template.
 
 ## 🔥 Features
 
-- Using Next.js Cloudinary
 - Using Framer Motion
 - Using Gsap with Lenis
 - Using React Wrap Balancer

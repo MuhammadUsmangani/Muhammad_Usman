@@ -2,9 +2,9 @@
 
 import { motion } from 'framer-motion';
 import { MoveDownRight } from 'lucide-react';
-import { CldImage } from 'next-cloudinary';
 
 import { ParallaxSlider } from '@/components';
+import { cloudinaryUrl } from '@/utils/helpers/cloudinary-url';
 
 import { slideUp } from './variants';
 
@@ -16,20 +16,20 @@ export function Header() {
       initial='initial'
       animate='enter'
     >
-      <CldImage
-        src='Dennis-Portfolio/images/lapetmmek4fymz68m4u8'
-        className='object-cover md:scale-125 md:object-contain'
-        fill={true}
+      {/* fallback to regular image; `cloudinaryUrl` will prefix cloudinary base and handle public ids */}
+      <img
+        src={cloudinaryUrl('/images/header.jpg')}
+        className='absolute inset-0 size-full object-cover md:scale-125 md:object-contain'
         sizes='100vw'
-        alt='Dennis Snellenberg Personal Picture'
+        alt='Muhammad Usman Personal Picture'
       />
 
       <div className='relative flex h-full flex-col justify-end gap-2 md:flex-col-reverse md:justify-normal'>
         <div className='select-none'>
-          <h1 className='text-[max(9em,15vw)]'>
+          <h1 className='text-[15vw] md:text-[max(9em,15vw)]'>
             <ParallaxSlider repeat={4} baseVelocity={2}>
               <span className='pe-12'>
-                Dennis Snellenberg
+                Muhammad Usman
                 <span className='spacer'>—</span>
               </span>
             </ParallaxSlider>

@@ -1,31 +1,32 @@
 /** @type {import('next').Metadata} */
 export const rootMetadata = {
-  metadataBase: new URL('https://dennis-snellenberg-portfolio.vercel.app/'),
+  metadataBase: new URL('https://muhammad-usman-portfolio.vercel.app/'),
   title: {
-    template: '%s | Dennis Snellenberg',
-    default: 'Dennis Snellenberg • Freelance Designer & Developer',
+    template: '%s | Muhammad Usman',
+    default: 'Muhammad Usman • Freelance Designer & Developer',
   },
   description:
-    'Helping brands thrive in the digital world. Located in The Netherlands. Delivering tailor-made digital designs and building interactive websites from scratch. © Code by Dennis',
-  generator: 'Dennis Snellenberg',
-  applicationName: 'Dennis Snellenberg',
+    'Helping brands thrive in the digital world. Located in The Netherlands. Delivering tailor-made digital designs and building interactive websites from scratch. © Code by Muhammad Usman',
+  generator: 'Muhammad Usman',
+  applicationName: 'Muhammad Usman',
+  referrer: 'origin-when-cross-origin',
   referrer: 'origin-when-cross-origin',
   keywords: ['Design', 'Develope', 'Freelance'],
   authors: [
-    { name: 'Ali Bagheri', url: 'https://www.github.com/alibagheri2079' },
+    { name: 'Muhammad Usman', url: 'https://www.github.com/muhammadusman' },
   ],
-  creator: 'Ali Bagheri',
-  publisher: 'Ali Bagheri',
+  creator: 'Muhammad Usman',
+  publisher: 'Muhammad Usman',
   twitter: {
     card: 'summary_large_image',
-    title: 'Dennis Snellenberg',
+    title: 'Muhammad Usman',
     description:
-      'Helping brands thrive in the digital world. Located in The Netherlands. Delivering tailor-made digital designs and building interactive websites from scratch. © Code by Dennis',
+      'Helping brands thrive in the digital world. Located in The Netherlands. Delivering tailor-made digital designs and building interactive websites from scratch. © Code by Muhammad Usman',
     siteId: '1467726470533754880',
-    creator: '@AliBagheri2079',
+    creator: '@muhammadusman',
     creatorId: '1467726470533754880',
     images: {
-      url: 'https://dennis-snellenberg-portfolio.vercel.app/screenshot.png',
+      url: 'https://muhammad-usman-portfolio.vercel.app/screenshot.png',
       alt: 'Portfolio Screenshot',
     },
   },
